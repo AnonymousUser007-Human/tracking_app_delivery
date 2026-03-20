@@ -1,0 +1,41 @@
+/* LogiTrack Theme - Distributed Systems Lesson App */
+/* Colors from exam_app (app_theme.dart) */
+
+:root {
+  /* Primary palette */
+  --primary: #0D47A1;
+  --primary-dark: #1565C0;
+  --secondary: #00BFA5;
+  --accent: #FF6D00;
+  --accent-light: #FF8A00;
+
+  /* Semantic */
+  --error: #D32F2F;
+  --success: #388E3C;
+  --success-light: #66BB6A;
+  --warning: #FFA000;
+
+  /* Backgrounds */
+  --bg: #F5F7FA;
+  --surface: #ffffff;
+  --card: #ffffff;
+
+  /* Text */
+  --text-primary: #1A1A2E;
+  --text-secondary: #6B7280;
+  --text-light: #9CA3AF;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  --gradient-accent: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+  --gradient-success: linear-gradient(135deg, var(--success) 0%, var(--success-light) 100%);
+
+  /* Node type colors */
+  --node-supplier: #2196F3;
+  --node-warehouse: #9C27B0;
+  --node-agent: #4CAF50;
+
+  /* Shadows */
+  --shadow-card: 0 4px 10px rgba(0, 0, 0, 0.08);
+  --shadow-elevated: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
